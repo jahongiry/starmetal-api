@@ -5,18 +5,18 @@ default: &default
 
 development:
   <<: *default
-  database: metal_development
+  database: metall_development
   username: postgres
   password: iam3489495
 
 test:
   <<: *default
-  database: metal_test
+  database: metall_test
   username: postgres
   password: iam3489495
 
 production:
   <<: *default
-  database: metal_production
-  username: metal
+  database: metall_production
+  username: postgres
   password: <%= ENV["METAL_DATABASE_PASSWORD"] %>

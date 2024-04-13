@@ -17,7 +17,7 @@ test:
 
 production:
   <<: *default
-  url: <%= ENV["DATABASE_URL"] %>
+  url: postgresql://monorail.proxy.rlwy.net:22688
   database: railway
   username: postgres
   password: DyvrevkDHCjFrMWmKYuCRIISGSQiCyTk

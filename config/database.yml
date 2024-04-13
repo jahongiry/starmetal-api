@@ -15,9 +15,9 @@ test:
   username: postgres
   password: iam3489495
 
-  production:
+production:
   <<: *default
   url: <%= ENV["DATABASE_URL"] %>
-  database: metall_production
+  database: railway
   username: postgres
-  password: <%= ENV["RAIL_UPLOAD_DATABASE_PASSWORD"] %>
+  password: DyvrevkDHCjFrMWmKYuCRIISGSQiCyTk

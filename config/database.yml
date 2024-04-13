@@ -17,9 +17,10 @@ test:
 
 production:
   <<: *default
-  url: postgres.railway.internal:5432
+  url: monorail.proxy.rlwy.net:22688
   database: railway
   username: postgres
   password: DyvrevkDHCjFrMWmKYuCRIISGSQiCyTk
   # postgresql://postgres:DyvrevkDHCjFrMWmKYuCRIISGSQiCyTk@postgres.railway.internal:5432/railway
   # postgresql://postgres:DyvrevkDHCjFrMWmKYuCRIISGSQiCyTk@monorail.proxy.rlwy.net:22688/railway
+z
